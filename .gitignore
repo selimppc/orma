@@ -3,12 +3,16 @@ node_modules/
 
 # Laravel 4 specific
 bootstrap/compiled.php
-app/storage/
+bootstrap/app.php
+bootstrap/autoload.php
 
 # Laravel 5 & Lumen specific
-bootstrap/cache/
-storage/
 .env.*.php
 .env.php
 .env
 .env.example
+
+
+#later added ignores
+composer.lock
+.idea/
